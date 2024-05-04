@@ -2,6 +2,7 @@ services:
   shell:
     build:
       context: .
+    platform: linux/amd64
     volumes:
-      - .:/c-compiler
+      - .:/home/user
     tty: true
