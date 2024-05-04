@@ -1,0 +1,7 @@
+services:
+  shell:
+    build:
+      context: .
+    volumes:
+      - .:/c-compiler
+    tty: true
